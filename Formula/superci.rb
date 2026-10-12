@@ -6,25 +6,25 @@ class Superci < Formula
 
   on_macos do
     on_arm do
-      url "https://registry.npmjs.org/@superci/cli-darwin-arm64/-/cli-darwin-arm64-0.13.0.tgz"
-      sha256 "e92b41075907c38086dc68e04a15f6ee238a4ab6240873605f04e97163ad2d85"
+      url "https://registry.npmjs.org/@superci/cli-darwin-arm64/-/cli-darwin-arm64-0.13.1.tgz"
+      sha256 "d30be9513fef0b497afa30add01e11b6ae3bc6c50433178fd21b1d690fafce95"
     end
 
     on_intel do
-      url "https://registry.npmjs.org/@superci/cli-darwin-x64/-/cli-darwin-x64-0.13.0.tgz"
-      sha256 "51e159454539ff0af64ff64ed8475b8667a1fbe78af70d3b6960fb1be2521b70"
+      url "https://registry.npmjs.org/@superci/cli-darwin-x64/-/cli-darwin-x64-0.13.1.tgz"
+      sha256 "346b198d0696871e418e41d2c16c32f9886d0445389029b91440120c68ad3a3e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://registry.npmjs.org/@superci/cli-linux-arm64/-/cli-linux-arm64-0.13.0.tgz"
-      sha256 "7d3083d553199ce675fccbec2e6f6113923e9a8bb2e64fc5952476286aa47f3d"
+      url "https://registry.npmjs.org/@superci/cli-linux-arm64/-/cli-linux-arm64-0.13.1.tgz"
+      sha256 "17daff251deaffee476c8f8b54e00cb26e45e68885c840630534bdf8f9ed3b3e"
     end
 
     on_intel do
-      url "https://registry.npmjs.org/@superci/cli-linux-x64/-/cli-linux-x64-0.13.0.tgz"
-      sha256 "622ae9507278ae7540b9c2001ca21017a2d0cf74c1a688a74ff22a770244d289"
+      url "https://registry.npmjs.org/@superci/cli-linux-x64/-/cli-linux-x64-0.13.1.tgz"
+      sha256 "261451ad461eb018cac2e2b4282ab047e416952f0fc178d9469e76cbad2409d5"
     end
   end
 
