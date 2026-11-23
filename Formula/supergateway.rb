@@ -2,33 +2,33 @@
 class Supergateway < Formula
   desc "Run MCP stdio servers over SSE, WebSockets or Streamable HTTP, and back"
   homepage "https://github.com/supercorp-ai/supergateway"
-  version "4.2.3"
+  version "4.2.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/supercorp-ai/supergateway/releases/download/v4.2.3/supergateway-darwin-arm64.tar.gz"
-      sha256 "354f911253159543847b2787af08d29bbe14ed64da81f85a0ebbb23f839133f9"
+      url "https://github.com/supercorp-ai/supergateway/releases/download/v4.2.4/supergateway-darwin-arm64.tar.gz"
+      sha256 "ce7422f7069a72028b8b9917779f8c9839c888e9aa70c73c6ab31bc2a53bca9c"
     end
 
     on_intel do
       # Node cannot build a standalone executable for Intel Macs, so they get
       # the npm package on Homebrew's Node.
-      url "https://registry.npmjs.org/supergateway/-/supergateway-4.2.3.tgz"
-      sha256 "a09d5af49ec5829532f2b25bec4c667b474b90fbbbfa3c846d9b1dda01be81d2"
+      url "https://registry.npmjs.org/supergateway/-/supergateway-4.2.4.tgz"
+      sha256 "c7238adf790265b0561ea187df907d8361bfa1ab53a7da8b90858956218b9464"
       depends_on "node"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/supercorp-ai/supergateway/releases/download/v4.2.3/supergateway-linux-arm64.tar.gz"
-      sha256 "8e19e0b9fbd0514d2609c7cdece07ad80f4b833108efb95d4a23292008cef77f"
+      url "https://github.com/supercorp-ai/supergateway/releases/download/v4.2.4/supergateway-linux-arm64.tar.gz"
+      sha256 "c6098c9f31c9777a85d7e9e573470488a6aadb0efa0e328df83c4b9b67d4c09a"
     end
 
     on_intel do
-      url "https://github.com/supercorp-ai/supergateway/releases/download/v4.2.3/supergateway-linux-x64.tar.gz"
-      sha256 "e5400784f931ef56a51132d35fe9b4e25b71535566a2ef3e4d61380c406b9803"
+      url "https://github.com/supercorp-ai/supergateway/releases/download/v4.2.4/supergateway-linux-x64.tar.gz"
+      sha256 "11b308c52783f950140a9040123a906795ad857559e0b06cca4c7187c11afeb3"
     end
   end
 
