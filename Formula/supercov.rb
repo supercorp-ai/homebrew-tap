@@ -2,30 +2,30 @@
 class Supercov < Formula
   desc "Coverage, security and code quality for coding agents"
   homepage "https://supercov.com"
-  version "4.29.12"
+  version "4.29.13"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/supercorp-ai/supercov/releases/download/v4.29.12/supercov-cli-darwin-arm64-4.29.12.tgz"
-      sha256 "73114fef388b31fd2ce4ccdf4e8292c7c26982c23cec8ac65ec2661918505e70"
+      url "https://github.com/supercorp-ai/supercov/releases/download/v4.29.13/supercov-cli-darwin-arm64-4.29.13.tgz"
+      sha256 "94cb8e01d2cd38b58456907a40e6f871136253278ce27089d72761630a0a1129"
     end
 
     on_intel do
-      url "https://github.com/supercorp-ai/supercov/releases/download/v4.29.12/supercov-cli-darwin-x64-4.29.12.tgz"
-      sha256 "05b09bcf7e126a7d8b8bcb8360763a211e02099147261c710c8a50fb42f31ff0"
+      url "https://github.com/supercorp-ai/supercov/releases/download/v4.29.13/supercov-cli-darwin-x64-4.29.13.tgz"
+      sha256 "4b54312d5ed4f3034c9afe5d6822f19248e2f1221c1617a32349342d1b1a1096"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/supercorp-ai/supercov/releases/download/v4.29.12/supercov-cli-linux-arm64-gnu-4.29.12.tgz"
-      sha256 "1955efeebbc6e81dd6257ad12e81bf3d637ca65285c3a73063cf7073e64f4468"
+      url "https://github.com/supercorp-ai/supercov/releases/download/v4.29.13/supercov-cli-linux-arm64-gnu-4.29.13.tgz"
+      sha256 "88db42571571456212a99fd03889c1dbfdfb18b3f7953f787e6c357524a6cdc7"
     end
 
     on_intel do
-      url "https://github.com/supercorp-ai/supercov/releases/download/v4.29.12/supercov-cli-linux-x64-gnu-4.29.12.tgz"
-      sha256 "1dbf7ce967bc24c203e5147c7b83f132d8cc8a4009b8e1cfd26c3a5940f0b19b"
+      url "https://github.com/supercorp-ai/supercov/releases/download/v4.29.13/supercov-cli-linux-x64-gnu-4.29.13.tgz"
+      sha256 "bf39724ab52226eeae0eaf128acc1b2b969f9147ae88432564e9e7b43c436285"
     end
   end
 
